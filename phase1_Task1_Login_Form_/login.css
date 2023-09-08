@@ -1,0 +1,59 @@
+body {
+  background-color: #7858A6;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family:Poppins;
+}
+
+#form-container {
+  text-align: center;
+  background-color: #FFFFFF;
+  height: 60%;
+  width: 25%;
+  border-radius: 10px;
+}
+
+#form-container h2 {
+  font-size: 30px;
+}
+form {
+  padding: 0 10px 40px 10px;
+}
+
+input {
+  width: 70%;
+  margin: 10px 30px;
+  padding: 10px 10px;
+  background: transparent;
+  outline: none;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  margin-top: 3px;
+  width: 76%;
+  padding: 7px 10px;
+  background-color: #7858A6;
+  border: 0px;
+  color: white;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  margin: 0;
+  text-align: left;
+}
+
+.forgotpass{
+  font-size: 12px;
+  /* text-decoration: none; */
+}
+
+.signupbtn{
+  font-size: 12px;
+  text-decoration: none;
+}

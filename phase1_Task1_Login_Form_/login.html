@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Source+Code+Pro:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div id="form-container">
-        <h2>Login</h2>
-        <form action="" onsubmit="return validateform()">
-          <input type="text" placeholder="User Name" id="username" /> <br />
-          <p class="error" id="user-error"></p>
-          <input type="password" placeholder="Password" id="password" /> <br />
-          <p class="error" id="pass-error"></p>
-  
-          <input type="submit" />
-        </form>
-      </div>
+      <h2>Login</h2>
+      <form action="" onsubmit="return validateform()">
+        <input type="text" placeholder="User Name" id="username" /> <br />
+        <p class="error" id="user-error"></p>
+        <input type="password" placeholder="Password" id="password" /> <br />
+        <p class="error" id="pass-error"></p>
+        <a class="forgotpass" href="#">Forgot Your Password?</a>
+        <button type="submit">LOGIN</button>
 
-</body>
+        <p class="signupbtn">Don't have account? <a href="#">Sign Up</a></p>
+      </form>
+    </div>
+    </div>
+  </body>
 </html>
