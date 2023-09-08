@@ -42,12 +42,6 @@ button[type="submit"] {
   border-radius: 3px;
 }
 
-.error {
-  color: red;
-  margin: 0;
-  text-align: left;
-}
-
 .forgotpass{
   font-size: 12px;
   /* text-decoration: none; */
