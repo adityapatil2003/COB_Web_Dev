@@ -49,12 +49,44 @@ body{
     border-bottom-left-radius:0;
 }
 
-/* .search_field button:hover{
-    background:#F9F9F9 ;
-    transition: 100ms;
-} */
-
 .search_field button img{
     width: 18px;
     margin:5px 5px 0 0;
+}
+
+.weather_icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+}
+
+.weather h2{
+    font-size: 40px;
+    margin-top: -20px ;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 30px;
+    margin-right: 12px;
+}
+
+.humidity, .wind{
+    font-size: 23px;
 }
